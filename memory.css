@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Shrikhand&display=swap');
+
+
+*{
+    font-family: 'Quicksand',sand-serif;
+}
+
+
+
+
+a{
+    font-family: 'Shrikhand', serif;
+    text-decoration: none;
+    color: #000;
+}
+
+
+body {
+    color: #000;
+    background: linear-gradient(#fbc5c5, #f28383 , #ffaa51);
+    min-height: 100vh;
+  }
+
+.container{
+    display: flex;
+    justify-content: center;
+  }
+
+.card-body{
+    display: block;
+    background-color: #fff;
+    max-width: 95%;
+    margin-top: 4vh;
+    margin-bottom: 30px;
+    padding: 3%;
+    border-radius: 7%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.31);
+}
+
+.logo{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: -10px;
+    background: -webkit-linear-gradient(#fdfafa,#ff5f5f,#9b0101);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content-mem p{
+    font-size: 18px;
+}
+
+.content-mem h2{
+    font-size: 28px;
+    background: -webkit-linear-gradient(#fcfe00,#ff00b3,#0018ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.image-mem img{
+    margin-top: 5px;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.image-flower img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+}
+
+@media screen and (max-width:720px){
+    .logo{
+        font-size: 22px;
+    }
+    li.nav-links{
+        font-size: 13px;
+    }
+    .main h2{
+        font-size: 28px;
+    }
+    .main p{
+        font-size: 15px;
+    }
+    botton{
+        font-size: 13px;
+    }
+    .image-mem img{
+        max-width: 95%;
+    }
+    .image-flower img{
+        max-width: 95%;
+    }
+}
